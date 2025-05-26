@@ -15,14 +15,20 @@
         android:theme="@style/Theme.FootBallClub"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name="com.example.footballclub.spain.MainActivityTeam"
+            android:exported="false" />
+        <activity
+            android:name="com.example.footballclub.spain.MainMenu"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
